@@ -20,13 +20,12 @@
   </tr>
 </table>
 
-## Data Pipeline Showcase
-
-[Barcelona Air Quality Improvement][1] is a Tableau dashboard showing how Barcelona's policies have improved its air quality over a number of years. I built it using a dataset I chose myself: nitrogen dioxide (NO₂) readings from the city's monitoring stations, 2018 to 2024. Previously Barcelona had spent years above EU limits for nitrogen dioxide. I lived in Barcelona over a number of years, and was truly inspired by the effort and management invested into the improvement of the city's environment. In 2020 the city brought in a low emission zone, improved public transport and started pedestrianising the centre. This dashboard was built as a testament to that work and its successes.
+**Data Pipeline Showcase**
+[Barcelona Air Quality Improvement][1] is a Tableau dashboard showing how Barcelona's policies have improved its air quality over a number of years. Previously Barcelona had spent years above EU limits for nitrogen dioxide. I lived in Barcelona over a number of years, and was truly inspired by the effort and management invested into the improvement of the city's environment. In 2020 the city brought in a low emission zone, improved public transport and started pedestrianising the centre. This dashboard was built as a testament to that work and its successes.
 
 Across the city, average NO₂ fell from 33 µg/m³ in 2019 to 21 µg/m³ in 2024. Levels dropped sharply in 2020 during lockdown and rose again in 2022, but by 2023 they had fallen below even the lockdown year, which points to a lasting change due to implemented policies.
 
-This repo is the data side of the project. Barcelona changed how it publishes air quality data partway through, so the notebook here rebuilds two incompatible formats into one clean daily dataset that Tableau can use.
+This repo is the data side of the project. Barcelona changed how it publishes air quality data partway through, so the notebook here rebuilds two incompatible formats into one clean daily dataset that Tableau can use. I built it using a dataset I chose myself: nitrogen dioxide (NO₂) readings from the city's monitoring stations, 2018 to 2024.
 
 ## The Dashboard
 
@@ -89,6 +88,7 @@ In April 2019 the data source moved to Barcelona's Public Health Agency (ASPB), 
 5. Rename and reorder the columns to match the current format.
 
 Both sets are then combined, sorted by date and station, and saved as `pollution_dataset.csv`, ready for Tableau.
+The raw CSVs are already included in `datasets/`. New months in the current format can be added to `datasets/air_quality/2020s/` and picked up by running the notebook again.
 
 ## Technologies Used
 
@@ -100,8 +100,6 @@ Both sets are then combined, sorted by date and station, and saved as `pollution
   - Notebook for building and running the pipeline step by step.
 - [Tableau Public][8]
   - Creating and publishing the dashboard.
-
-The raw CSVs are already included in `datasets/`. New months in the current format can be added to `datasets/air_quality/2020s/` and picked up by running the notebook again.
 
 ## Credit and Contact
 
