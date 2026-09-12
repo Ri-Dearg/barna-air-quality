@@ -1,4 +1,4 @@
-# Barna Pollute Data 🌫️
+# Barna Air Quality Improvement 🌫️
 
 ![Python Badge](https://img.shields.io/badge/Code-Python-8f7891?style=flat&logo=python&logoColor=white)
 ![Pandas Badge](https://img.shields.io/badge/Data-pandas-8f7891?style=flat&logo=pandas&logoColor=white)
