@@ -6,11 +6,11 @@
 ![Tableau Badge](https://img.shields.io/badge/Data-Tableau-8f7891?style=flat)
 
 <a href="https://public.tableau.com/app/profile/rory.patrick.sheridan/viz/BarcelonaAirQualityImprovement/Dashboard1">
-  <img align="left" width="42%" src="https://github.com/user-attachments/assets/7981855f-7c14-459e-aacb-e88fb3213de1" alt="Barcelona Air Quality Improvement dashboard">
+  <img align="left" width="44%" src="https://github.com/user-attachments/assets/7981855f-7c14-459e-aacb-e88fb3213de1" alt="Barcelona Air Quality Improvement dashboard">
 </a>
 
 <a href="https://public.tableau.com/app/profile/rory.patrick.sheridan/viz/BarcelonaAirQualityImprovement/Dashboard1">
-  <img align="right" width="42%" src="https://github.com/user-attachments/assets/f1e25b7c-05f1-4755-8783-d73c4af62b9b" alt="Barcelona Air Quality Improvement dashboard">
+  <img align="right" width="44%" src="https://github.com/user-attachments/assets/f1e25b7c-05f1-4755-8783-d73c4af62b9b" alt="Barcelona Air Quality Improvement dashboard">
 </a>
 
 <br clear="all">
